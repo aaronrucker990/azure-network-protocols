@@ -107,6 +107,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/dj2nlDV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
 2. Attempt to access file shares as a normal user
 
     9.  On Client-1, navigate to the shared folder (start, run, \\dc-1)
