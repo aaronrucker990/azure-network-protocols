@@ -24,7 +24,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-Create some sample file shares with various permissions
+1. Create some sample file shares with various permissions
 
     1. Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin)
     
@@ -42,13 +42,13 @@ Create some sample file shares with various permissions
     
     8. (Skip accounting for now)
 
-Attempt to access file shares as a normal user
+2. Attempt to access file shares as a normal user
 
     9.  On Client-1, navigate to the shared folder (start, run, \\dc-1)
     
     10. Try to access the folders you just created. Which folders can you access? Which folders can you create stuff in? Does it make sense?
 
-Create an “ACCOUNTANTS” Security Group, assign permissions, an test access
+3. Create an “ACCOUNTANTS” Security Group, assign permissions, an test access
 
     11. Go back to DC-1, in Active Directory, create a security group called “ACCOUNTANTS”
     
