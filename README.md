@@ -77,7 +77,25 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    
+1. Create some sample file shares with various permissions
+
+    1. Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin)
+    
+    2. Connect/log into Client-1 as a normal user (mydomain\<someuser>)
+    
+    3. On DC-1, on the C:\ drive, create 4 folders: “read-access”, “write-access”, “no-access”, “accounting”
+    
+    4. Set the following permissions (share the folder) for the “Domain Users” group:
+    
+    5. Folder: “read-access”, Group: “Domain Users”, Permission: “Read”
+    
+    6. Folder: “write-access”,  Group: “Domain Users”, Permissions: “Read/Write”
+    
+    7. Folder: “no-access”, Group: “Domain Admins”, “Permissions: “Read/Write”
+    
+    8. (Skip accounting for now)
+
 </p>
 <br />
 
