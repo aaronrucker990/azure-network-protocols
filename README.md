@@ -1,7 +1,5 @@
 <p align="center">
 
-<img src="https://i.imgur.com/Y0HD1yk.png" alt="Traffic Examination"/>
-
 <img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
 
 </p>
